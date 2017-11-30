@@ -1,0 +1,46 @@
+/* CSS Document */
+body {
+	background-color: #D2D1D0;
+	background-image:url(../imgs/gradient.png);
+	background-repeat: repeat-x;
+	font-size:0.95em; 
+	font-family:Arial;		
+}
+
+/*Los elementos de tipo fieldset*/
+fieldset {
+	width:30%; 
+	border:15px solid #999999;
+}
+
+/*Los elementos de tipo legend*/
+legend {
+	font-weight:bold;
+}
+
+/*Los elementos label contenidos dentro de los elementos con clase "formulario_campo"*/
+.formulario_campo label {
+	text-transform:uppercase; 
+	color:#1F599C; 
+	font-weight:bold;	
+	font-size:80%;
+}
+
+/*Los elementos de tipo input contenidos dentro de los elementos con identificador "frm_autenticar"*/
+#frm_autenticar input {
+	border:1px solid #CCCCCC;
+	padding:2px; 
+	width:300px
+}
+
+/*Los elementos de tipo input con clase "boton" contenidos dentro de los elementos 
+  con identificador "frm_autenticar"*/
+#frm_autenticar input.boton{
+	margin-top:5px;
+	width:100px
+}
+
+/*Los enlaces con clase "recordar" que se encuentran contenidos dentro de alguna capa con clase "olvido_clave"*/
+div.olvido_clave a.recordar{
+	color:#1F599C; 
+}
